@@ -9,7 +9,7 @@ A simple, language-agnostic declarative approach to setting up a new MySQL local
 -          git clone https://github.com/osag1e/1shotSequel.git
 
 
-### Modify the .env.local file to add your own credentials:
+### Modify the `.env.local` file to add your own credentials:
 ```
 DB_HOST=localhost
 DB_PORT=3306
@@ -30,7 +30,7 @@ host=localhost
 Save file and quit neovim with:
 -                 :wq 
 
--  Just use nano if you get stuck 🙃
+Just use nano if you dont understand neovim 🙃
 
 ### Set the permissions to ensure only you can read the file with:
 -                  chmod 600 ~/.my.cnf
