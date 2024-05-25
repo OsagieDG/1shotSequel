@@ -1,8 +1,7 @@
 include .env.local
 export
 
-.PHONY: create_mysql_user create_mysql_database setup_mysql_database 1shotSequel
-
+.PHONY: create_mysql_user create_mysql_database setup_database
 create_mysql_user:
 	@echo "Checking if MySQL user $(DB_USER) exists..."
 	@mysql --defaults-file=~/.my.cnf -P $(DB_PORT) -e "SELECT 1 FROM mysql.user WHERE user = '$(DB_USER)';" | grep -q 1 || \
