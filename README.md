@@ -10,13 +10,14 @@ A simple, language-agnostic declarative approach to setting up a new MySQL local
 
 
 ### Modify the .env.local file to add your own credentials:
-- DB_HOST=localhost
-- DB_PORT=3306
-- DB_USER=
-- DB_PASSWORD=
-- DB_NAME=
-
-### create a .my.cnf file in your home directory with:
+```
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+```
+### create a `.my.cnf` file in your home directory with:
 -                   nvim ~/.my.cnf
 
 Include your MySQL root or custom credentials:
@@ -38,4 +39,4 @@ Save file and quit neovim with:
 ### To run the script, use:
 -          make setup_database
 
-
+![1shotSequel](https://github.com/osag1e/1shotSequel/blob/main/1shotSequel.png)
