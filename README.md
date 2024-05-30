@@ -1,5 +1,5 @@
 # 1shotSequel
-A simple, language-agnostic declarative approach to setting up a new MySQL local user and database with one command using Makefile automation.
+A simple, language-agnostic, declarative approach to setting up a new MySQL local user and database with one command using Makefile automation.
 
 - Find the PostgreSQL version here: [addIOlogic/1shot](https://github.com/addIOlogic/1shot) 
 
