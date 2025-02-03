@@ -1,12 +1,12 @@
 # 1shotSequel
 A simple, language-agnostic, declarative approach to setting up a new MySQL local user and database with one command using Makefile automation.
 
-- Find the PostgreSQL version here: [addIOlogic/1shot](https://github.com/addIOlogic/1shot) 
+- Find the PostgreSQL version here: [OsagieDG/1shot](https://github.com/addIOlogic/1shot)
 
 ## Prerequisites
 
 ### Clone the repository:
--          git clone https://github.com/osag1e/1shotSequel.git
+-          git clone https://github.com/OsagieDG/1shotSequel.git
 
 
 ### Modify the `.env.local` file to add your own credentials:
@@ -28,7 +28,7 @@ password=yourpassword
 host=localhost
 ```
 Save file and quit neovim with:
--                 :wq 
+-                 :wq
 
 Just use nano if you dont understand neovim 🙃
 
@@ -39,4 +39,4 @@ Just use nano if you dont understand neovim 🙃
 ### To run the script, use:
 -          make setup_database
 
-![1shotSequel](https://github.com/osag1e/1shotSequel/blob/main/1shotSequel.png)
+![1shotSequel](https://github.com/OsagieDG/1shotSequel/blob/main/1shotSequel.png)
